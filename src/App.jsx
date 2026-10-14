@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Archive, ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, AtSign, Bookmark, Check, ChevronDown, ChevronLeft, ChevronRight, CircleHelp, Download, ExternalLink, Feather, FileText, Heart, Home, Image as ImageIcon, Link as LinkIcon, LogIn, LogOut, MapPin, MessageCircle, MoreHorizontal, Pencil, Plus, Repeat2, Search, Send, Settings2, Share2, Sparkles, Trash2, UserRound, X } from 'lucide-react';
 
 const API = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
